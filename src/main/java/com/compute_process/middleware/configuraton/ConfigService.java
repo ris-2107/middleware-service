@@ -20,8 +20,9 @@ public class ConfigService {
 
   public ConfigService() {
     config.put("DATA_PROCESSING", "taskQueue_TYPE_1");
-    config.put("MODEL_TRAINING", "taskQueue_TYPE_2");
     config.put("ANOMALY_DETECTION", "taskQueue_TYPE_2");
+    config.put("MODEL_TRAINING", "taskQueue_TYPE_3");
+
     config.put("RABBIT_MQ_CONFIG", "amqps://qypgxsvh:eCL_9EIo1lbiu-0hUXf61g-ZTavOL_WM@puffin.rmq2.cloudamqp.com/qypgxsvh");
   }
 
